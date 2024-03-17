@@ -1,0 +1,61 @@
+Altair Feko - Solver (seq) Version 2023.1-9308 from 2023-12-14
+          Altair Feko - PREFEKO Version 2023-2564 from 2023-05-25 [FEK: default 193; used 193] BINARY
+          CADFEKO version 2023.1-9308 from 2023-12-14
+          Copyright (c) 1999-2014 Altair Engineering (Pty) Ltd
+          Copyright (c) 2014-2023 Altair Engineering Inc.
+          Intel(R) MKL version 2023.0.2 (build 20230613) on Intel(R) Architecture processors, Intel(R) 64 architecture (1 thread)
+Computer: PC WIN64 EM64T MKL -- DESKTOP-82J80KB
+          Microsoft Windows 11  (Build 22631), Version 10.0.22631 x64 (SP 0.0)
+          AMD Ryzen 5 4500 6-Core Processor              ; AuthenticAMD family 23 model 96 stepping 1 brand id 0
+          1 physical CPU with a total of 12 processors found (multi-core CPU with max. 6 cores per physical CPU)
+Threads:  OpenMP threading not used
+Date:     2024-03-13 16:31:04
+File:     New Patch parametric
+Memory:   Limited to physical available memory of 15.701 GByte
+          Installed memory 15.896 GByte, thereof free 8.212 GByte on DESKTOP-82J80KB
+MD5 check:FB550937540B9BE3040BCBB3592E66C7
+MD5 total:06B4B3ADEC0FD20C8AD10CE73A48B4A7
+Licence:  Altair HyperWorks Products
+
+ NOTE    35127: You are running a sequential version of Altair Feko, but it was detected that your machine has more than one core. For best performance, it would be recommended to run the parallel Feko Solver
+ NOTE    35179: Compatible graphics card (GPU) found on this machine for possible hardware acceleration (your Feko license allows GPU usage). Please use the command line option --use-gpu to use or enable the checkbox in the GUI
+
+Spice Engine:  PollEx Spice Version 2023.1-01301739-6f27ebdc from 2023-01-30
+
+          Scaling of the geometry with factor  1.00000E-03
+
+          Surface of all triangles in m*m:     2.77371E-01
+
+                    Linear segments are used
+
+          Length of the segments in m:         1.20000E-03
+ 
+
+ Intersection found between Segment 1 and Triangle 2245
+    Segment          x           y           z
+            1   7.2800E-02  0.0000E+00  0.0000E+00
+                7.4000E-02  0.0000E+00  0.0000E+00
+    Triangle         x           y           z
+         2245   7.4000E-02  0.0000E+00  0.0000E+00
+                7.3995E-02 -8.3809E-04  0.0000E+00
+                7.2800E-02  0.0000E+00  0.0000E+00
+ 
+
+ Intersection found between Segment 1 and Triangle 2246
+    Segment          x           y           z
+            1   7.2800E-02  0.0000E+00  0.0000E+00
+                7.4000E-02  0.0000E+00  0.0000E+00
+    Triangle         x           y           z
+         2246   7.3995E-02  8.3809E-04  0.0000E+00
+                7.4000E-02  0.0000E+00  0.0000E+00
+                7.2800E-02  0.0000E+00  0.0000E+00
+
+ Intersecting elements and segments found.
+ Review the mesh connectivity in CADFEKO and correct the CAD model
+ or merge coincident vertices for mesh models.
+ Incorrectly detected intersections might be caused by model extents
+ that are set too large or by the maximum identical distance that is
+ set incorrectly for the mesh.
+ ERROR   40631: Intersecting elements found
+
+Aborted: 2024-03-13 16:31:04
