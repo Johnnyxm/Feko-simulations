@@ -1,2 +1,2 @@
 # Feko-simulations
-file di simulazioni feko. per vedere i pattern di propagazione in far field consultare i file .fek, nella cartella file fek Simulation.
+file di simulazioni feko. per vedere i pattern di propagazione in far field consultare i file .fek
